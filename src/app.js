@@ -3,8 +3,11 @@ import { ApolloServer } from 'apollo-server-express';
 import { typeDefs } from './schemas/index.js';
 import { resolvers } from './resolvers/index.js';
 import { PORT } from './config.js';
+import connectDb from './db/index.js';
 
 const app = express();
+
+connectDb();
 
 app.get('/', (_req, res) => {
   res.status(200).json({ message: 'Hello!' });
