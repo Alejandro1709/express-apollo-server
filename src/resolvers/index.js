@@ -1,3 +1,5 @@
 export const resolvers = {
-  message: () => 'Hello World!',
+  Query: {
+    message: () => 'Hello World!',
+  },
 };
