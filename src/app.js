@@ -22,6 +22,7 @@ const start = async () => {
   const apolloServer = new ApolloServer({
     typeDefs,
     resolvers,
+    cache: 'bounded',
   });
 
   await apolloServer.start();
