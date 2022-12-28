@@ -30,6 +30,6 @@ export const typeDefs = gql`
       quantity: Int
     ): Product
 
-    removeProduct(id: ID): [Product]
+    removeProduct(id: ID): String
   }
 `;
