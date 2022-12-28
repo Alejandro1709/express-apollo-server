@@ -4,7 +4,7 @@ export default [
     title: 'Yogurt de Laive',
     imageUrl:
       'https://plazavea.vteximg.com.br/arquivos/ids/561765-450-450/20192547.jpg?v=637427443242800000',
-    price: 230,
+    price: 235,
     quantity: 0,
   },
   {
